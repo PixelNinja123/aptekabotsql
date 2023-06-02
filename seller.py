@@ -9,13 +9,13 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from psycopg2 import extensions
 
 
-host = 'localhost'
-port = '5432'
-user = 'postgres'
-password = '12345'
-database = 'apteka'
+host = 'host'
+port = 'port'
+user = 'user'
+password = 'password'
+database = 'database'
 
-bot = Bot(token='6102095467:AAEQyoy9tMGLdm1skTYXwJ5HeAnBZioui3M')
+bot = Bot(token='token')
 # Установка уровня логирования
 logging.basicConfig(level=logging.INFO)
 
