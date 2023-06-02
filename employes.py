@@ -10,14 +10,14 @@ from psycopg2 import extensions
 
 
 # Параметры подключения к базе данных
-host = 'localhost'
-port = '5432'
-user = 'postgres'
-password = '12345'
-database = 'apteka'
+host = 'host'
+port = 'port'
+user = 'user'
+password = 'password'
+database = 'database'
 
 # Создание экземпляра бота
-bot = Bot(token='6102095467:AAEQyoy9tMGLdm1skTYXwJ5HeAnBZioui3M')
+bot = Bot(token='token')
 ###########################################ПРОСМОТР РОЛЯМИ###################################
 # Установка уровня логирования
 logging.basicConfig(level=logging.INFO)
